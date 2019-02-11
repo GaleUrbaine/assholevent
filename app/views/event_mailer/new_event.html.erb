@@ -4,9 +4,9 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>Salut <%= @user.first_name %> et bienvenue chez nous !</h1>
+    <h1>Salut <%= @event.user.first_name %>, nous confirmons ta création d'évènement !</h1>
     <p>
-      Tu t'es inscrit sur assholevent.fr en utilisant l'e-mail suivant : <%= @user.email %>.
+      Tu as créé un event sur assholevent.fr en utilisant l'e-mail suivant : <%= @event.user.email %>.
     </p>
     <p>
       Pour accéder à ton espace client, connecte-toi via : <%= @url %>.
