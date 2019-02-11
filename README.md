@@ -1,5 +1,9 @@
 # README
 
+Project do with Jonathan, Rémi and Adrien!
+
+we do the mailer fort inscription and event with test, seed and validates!
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
